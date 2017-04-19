@@ -1,18 +1,10 @@
-
 {
-    "type": "package",
-    "package": {
-        "name": "google/my-client-api",
-        "version": "dev-master",
-        "source": {
-            "url": "https://github.com/sovoeun/clientapi.git",
-            "type": "git",
-            "reference": "master"
-        },
-        "autoload": {
-            "psr-0" : {
-                "Google" : "src"
-            }
+    "name": "google/clientapi",
+    "authors": [
+        {
+            "name": "Apple",
+            "email": "sovoeun201@gmail.com"
         }
-    }
+    ],
+    "require": {}
 }
