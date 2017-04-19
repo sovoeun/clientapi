@@ -1,17 +1,19 @@
-{
-    "name": "optimize/voeun/api",
-    "type": "library",
-    "description": "Client library for Google APIs",
-    "keywords": ["google"],
-    "homepage": "http://developers.google.com/api-client-library/php",
-    "license": "Apache-2.0",
-    "require": {
-        "php": ">=5.2.1"
-    },
-    "autoload": {
-        "psr-0": {
-            "Google": "src"
+"repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "google/my-client-api",
+            "version": "dev-master",
+            "source": {
+                "url": "https://github.com/sovoeun/clientapi.git",
+                "type": "git",
+                "reference": "master"
+            },
+            "autoload": {
+                "psr-0" : {
+                    "Google" : "src"
+                }
+            }
         }
-    },
-    "include-path": ["src/"]
-}
+    }
+],
